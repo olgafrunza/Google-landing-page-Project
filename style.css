@@ -1,0 +1,166 @@
+* {
+  /* background-color: white; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  width: 100%;
+} */
+
+.container {
+  padding: 1rem;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.header-left {
+  float: left;
+  margin: auto;
+}
+
+.header-right {
+  float: right;
+  margin: auto;
+}
+
+ul,
+li,
+a,
+button {
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0px 8px;
+  color: rgb(49, 48, 48);
+  opacity: 0.95;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#appicon-img {
+  vertical-align: middle;
+  opacity: 0.5;
+}
+
+#appicon-img:hover {
+  opacity: 1;
+}
+
+#sign-in {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(66, 133, 244);
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+}
+
+#sign-in:hover {
+  cursor: pointer;
+}
+
+#microphone {
+  width: 20px;
+}
+
+#Google {
+  clear: both;
+  display: block;
+  margin: auto;
+  padding-top: 200px;
+}
+
+#search {
+  width: 450px;
+  height: 40px;
+  border: 2px solid #d3d3d3;
+  border-radius: 20px;
+  margin: 25px auto;
+  display: flex;
+  align-items: center;
+}
+
+#search:hover {
+  box-shadow: 0px 2px 2px 0px #c0b6b6;
+}
+
+#magglass {
+  margin: 3px 8px 5px 10px;
+}
+
+#microphone {
+  margin: 5px 8px;
+}
+#searchtext {
+  display: inline-block;
+  width: 77%;
+  height: 20px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+#buttons {
+  text-align: center;
+  width: 100vw;
+}
+
+.google-search {
+  background-color: #f2f1f1;
+  color: rgb(104, 103, 103);
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.google-search:hover {
+  box-shadow: 1px 2px 2px 1px #c0b6b6;
+  cursor: pointer;
+}
+
+#under-buttons-text {
+  text-align: center;
+  margin: 20px auto;
+  color: rgb(49, 48, 48);
+  font-size: 13px;
+}
+
+#link-text {
+  text-decoration: underline;
+  color: rgb(4, 4, 75);
+  font-size: 13px;
+}
+
+#bottom {
+  position: fixed;
+  bottom: 0;
+  background-color: #f2f1f1;
+  width: 100%;
+}
+
+#bottom-links {
+  padding: 15px 5px 30px 0px;
+}
+
+#country {
+  border-bottom: 1px solid #dadada;
+  padding: 1rem 1.5rem;
+  opacity: 0.8;
+}
+
+#bottom-left {
+  float: left;
+}
+
+#bottom-right {
+  float: right;
+}
